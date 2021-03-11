@@ -1,7 +1,7 @@
 import '@aws-cdk/assert/jest';
 import * as eks from '@aws-cdk/aws-eks';
 import { Stack } from '@aws-cdk/core';
-import { AwsLoadBalancerController } from '../../src/constructs/aws-load-balancer-controller';
+import { AwsLoadBalancerController } from '../../constructs/aws-load-balancer-controller';
 
 describe('aws-load-balancer-controller', () => {
   test('namespace is "ingress"', () => {

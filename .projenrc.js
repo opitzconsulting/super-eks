@@ -21,6 +21,8 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/custom-resources',
   ],
   cdkDependenciesAsDeps: false,
+
+  testdir: 'src/__tests__',
   // cdkVersionPinning: false,                                                 /* Use pinned version instead of caret version for CDK. */
 
   /* ConstructLibraryOptions */

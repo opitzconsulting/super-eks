@@ -1,7 +1,7 @@
 import '@aws-cdk/assert/jest';
 import * as eks from '@aws-cdk/aws-eks';
 import { Stack } from '@aws-cdk/core';
-import { ExternalDNS } from '../../src/constructs/external-dns';
+import { ExternalDNS } from '../../constructs/external-dns';
 
 describe('external-dns', () => {
   test('namespace is "dns"', () => {

@@ -1,7 +1,7 @@
 import '@aws-cdk/assert/jest';
 import * as eks from '@aws-cdk/aws-eks';
 import { Stack } from '@aws-cdk/core';
-import { FluentBit } from '../../src/constructs/fluent-bit';
+import { FluentBit } from '../../constructs/fluent-bit';
 
 describe('fluent-bit', () => {
   test('namespace is "logging"', () => {

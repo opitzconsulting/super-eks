@@ -39,6 +39,7 @@ yarn-error.log*
 !/.mergify.yml
 !/.npmignore
 !/.projen/deps.json
+!/.projen/jest-snapshot-resolver.js
 !/.projen/tasks.json
 !/.projenrc.js
 !/.versionrc.json
@@ -46,7 +47,6 @@ yarn-error.log*
 !/LICENSE
 !/package.json
 !/src
-!/test
+!/src/__tests__
 !/tsconfig.eslint.json
-!/tsconfig.jest.json
 !version.json

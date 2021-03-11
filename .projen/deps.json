@@ -112,10 +112,6 @@
       "type": "build"
     },
     {
-      "name": "ts-jest",
-      "type": "build"
-    },
-    {
       "name": "typescript",
       "version": "^4.1.0",
       "type": "build"

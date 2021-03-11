@@ -3,7 +3,7 @@ import { arrayWith, objectLike, stringLike, ResourcePart, ABSENT } from '@aws-cd
 import * as route53 from '@aws-cdk/aws-route53';
 import * as cdk from '@aws-cdk/core';
 
-import { SuperEks } from '../../src/constructs/super-eks';
+import { SuperEks } from '../../constructs/super-eks';
 
 test('Empty Cluster', () => {
   const app = new cdk.App();
